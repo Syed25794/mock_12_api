@@ -1,5 +1,5 @@
 const Router = require("express");
-const { saveJobs, getAllJobs, filterJobs, sortJobs, searchJobs } = require("./../controllers/jobs.controlles");
+const { saveJobs, getAllJobs, filterJobs, sortJobs, searchJobs } = require("../controllers/jobs.controlles");
 
 const JobsRouters = Router();
 
