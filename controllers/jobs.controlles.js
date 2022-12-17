@@ -15,7 +15,7 @@ const saveJobs = async (req, res) => {
     payload.save();
     res.send({ msg: "successfully created Jobs" });
   } catch (err) {
-    res.send({ msg: "something went wrong" });
+    res.send({ msg: "something went wrong","error":err });
   }
 };
 
