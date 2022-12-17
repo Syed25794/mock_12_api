@@ -12,7 +12,7 @@ app.use("/jobs", JobsRouters);
 
 require("dotenv").config();
 
-const { LOCALHOST_PORT } = `0.0.0.0:$PORT` || 8000 ;
+const { LOCALHOST_PORT } = process.env || 8000 ;
 
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to Home Page.</h1>");
