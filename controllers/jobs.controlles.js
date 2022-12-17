@@ -1,8 +1,8 @@
-const Jobs = require("../models/jobs.models");
+const JobsRouters = require("../routes/jobs.routes");
 
 const saveJobs = async (req, res) => {
   try {
-    const payload = new Jobs({
+    const payload = new JobsRouters({
       company:req.body.company,
       postedAt:req.body.postedAt,
       level:req.body.level,
