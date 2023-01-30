@@ -12,7 +12,7 @@ The Jobs API allows users to create, retrieve, filter, sort and search job listi
 
 ### Create a new job listing
 
-Endpoint: `jobs/create`
+Endpoint: `https://mock-12-api-210t.onrender.com/jobs/create`
 
 Method: `POST`
 
@@ -34,7 +34,7 @@ Request Body:
 
 Method: `GET`
 
-Endpoint: `jpbs/all`
+Endpoint: `https://mock-12-api-210t.onrender.com/jpbs/all`
 
 Body:
 ```json
@@ -46,7 +46,7 @@ Body:
 
 ### Search for job listings by language
 Method: `GET`
-Endpoint: `jobs/search`
+Endpoint: `https://mock-12-api-210t.onrender.com/jobs/search`
 Body:
 ```json
 {
@@ -58,7 +58,7 @@ Body:
 
 ### Filter job listings by role
 Method: `GET`
-Endpoint: `jobs/filter  
+Endpoint: `https://mock-12-api-210t.onrender.com/jobs/filter  
 Body:
 ```json
 {
@@ -69,7 +69,7 @@ Body:
 
 ### Sort job listings by postedAt
 Method: `GET`
-Endpoint: `jobs/sort`
+Endpoint: `https://mock-12-api-210t.onrender.com/jobs/sort`
 Body:
 ```json
 {
