@@ -28,7 +28,7 @@ Request Body:
   "city": "",
   "contract": ""
 }
-
+```
 
 ### Get all job listings
 
@@ -58,7 +58,7 @@ Body:
 
 ### Filter job listings by role
 Method: `GET`
-Endpoint: `https://mock-12-api-210t.onrender.com/jobs/filter  
+Endpoint: `https://mock-12-api-210t.onrender.com/jobs/filter`
 Body:
 ```json
 {
